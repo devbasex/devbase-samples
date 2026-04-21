@@ -1,0 +1,4 @@
+GIT_USER=devbasex
+GIT_REPO=ai-plugins
+WORK_DIR=/work/$GIT_REPO
+CONTAINER_SCALE=1

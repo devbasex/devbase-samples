@@ -1,0 +1,17 @@
+name: devbase-samples
+description: "devbase公式サンプルプラグインレジストリ"
+maintainer: devbasex
+official: false
+
+plugins:
+  - name: adminer
+    path: adminer/
+    description: "Adminer - 軽量DB管理ツール（PHPコンテナ）"
+
+  - name: ai-plugins
+    path: ai-plugins/
+    description: "devbasex/ai-plugins - Claude Codeプラグインマーケットプレイスの開発環境"
+
+  - name: devbase
+    path: devbase/
+    description: "devbase本体の開発環境"

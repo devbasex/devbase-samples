@@ -1,0 +1,4 @@
+GIT_USER=devbasex
+GIT_REPO=devbase
+WORK_DIR=/work/$GIT_REPO
+CONTAINER_SCALE=1

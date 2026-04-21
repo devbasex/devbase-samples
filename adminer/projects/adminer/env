@@ -1,0 +1,4 @@
+GIT_USER=vrana
+GIT_REPO=adminer
+WORK_DIR=/work/$GIT_REPO
+CONTAINER_SCALE=1

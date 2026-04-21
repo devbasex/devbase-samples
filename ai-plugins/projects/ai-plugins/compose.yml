@@ -1,0 +1,24 @@
+services:
+
+  dev:
+    image: ai-plugins:latest
+    build:
+      context: ${DEVBASE_ROOT}/containers/general/
+      dockerfile: Dockerfile
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      # AWS SSO使用時のみコメントを外してください:
+      # - ~/.aws:/home/ubuntu/.aws
+    env_file:
+      - ${DEVBASE_ROOT}/.env
+      - env
+      - .env
+    group_add: ["${DOCKER_GID}"]
+    command: tail -f /dev/null
+    working_dir: /work
+    networks:
+      - devbase_net
+
+networks:
+  devbase_net:
+    external: true
