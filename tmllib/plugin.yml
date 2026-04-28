@@ -1,0 +1,6 @@
+name: tmllib
+version: "1.0.0"
+description: "tmllib - 共通ライブラリ開発環境"
+requires:
+  devbase: ">=2.2.0"
+priority: 0

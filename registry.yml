@@ -15,3 +15,11 @@ plugins:
   - name: devbase
     path: devbase/
     description: "devbase本体の開発環境"
+
+  - name: md-specgen
+    path: md-specgen/
+    description: "md-specgen - Markdown仕様書自動生成ツールの開発環境"
+
+  - name: tmllib
+    path: tmllib/
+    description: "tmllib - 共通ライブラリ開発環境"
