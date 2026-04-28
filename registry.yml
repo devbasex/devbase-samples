@@ -16,6 +16,10 @@ plugins:
     path: devbase/
     description: "devbase本体の開発環境"
 
+  - name: github_work_time
+    path: github_work_time/
+    description: "github_work_time - GitHubアクティビティから稼働時間を集計するツールの開発環境"
+
   - name: md-specgen
     path: md-specgen/
     description: "md-specgen - Markdown仕様書自動生成ツールの開発環境"

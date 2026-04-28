@@ -1,0 +1,22 @@
+services:
+
+  dev:
+    image: github_work_time:latest
+    build:
+      context: ${DEVBASE_ROOT}/containers/general/
+      dockerfile: Dockerfile
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file:
+      - ${DEVBASE_ROOT}/.env
+      - env
+      - .env
+    group_add: ["${DOCKER_GID}"]
+    command: tail -f /dev/null
+    working_dir: /work
+    networks:
+      - devbase_net
+
+networks:
+  devbase_net:
+    external: true
