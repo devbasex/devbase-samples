@@ -1,0 +1,6 @@
+name: github_work_time
+version: "1.0.0"
+description: "github_work_time - GitHubアクティビティから稼働時間を集計するツールの開発環境"
+requires:
+  devbase: ">=2.2.0"
+priority: 0
