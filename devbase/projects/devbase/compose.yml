@@ -9,6 +9,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       # AWS SSO使用時のみコメントを外してください:
       # - ~/.aws:/home/ubuntu/.aws
+      - ~/devbase:/work/devbase
     env_file:
       - ${DEVBASE_ROOT}/.env
       - env
