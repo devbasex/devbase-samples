@@ -10,9 +10,9 @@ services:
       # AWS SSO使用時のみコメントを外してください:
       # - ~/.aws:/home/ubuntu/.aws
     env_file:
-      - ${DEVBASE_ROOT}/.env
+      # devbase(PLAN35) 機密は環境変数で注入: - ${DEVBASE_ROOT}/.env
       - env
-      - .env
+      # devbase(PLAN35) 機密は環境変数で注入: - .env
     group_add: ["${DOCKER_GID}"]
     command: tail -f /dev/null
     working_dir: /work
