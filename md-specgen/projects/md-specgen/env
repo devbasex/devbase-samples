@@ -1,6 +1,2 @@
-GIT_USER=takemi-ohama
-GIT_REPO=md-specgen
-WORK_DIR=/work/$GIT_REPO
-CONTAINER_SCALE=1
-# up/list 完了後に dev コンテナへ接続した VS Code を自動で開く (PLAN31_3)
-DEVBASE_OPEN_EDITOR=1
+# コンテナへ渡す環境変数を書く。
+# devbase 自身の設定 (リポジトリ・scale・エディタ) は project.yml にある。
