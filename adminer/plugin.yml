@@ -2,5 +2,5 @@ name: adminer
 version: "1.0.0"
 description: "Adminer - 軽量DB管理ツール（PHPコンテナで動作）"
 requires:
-  devbase: ">=2.2.0"
+  devbase: ">=3.0.0"
 priority: 0

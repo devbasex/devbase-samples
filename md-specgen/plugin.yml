@@ -2,5 +2,5 @@ name: md-specgen
 version: "1.0.0"
 description: "md-specgen - Markdown仕様書自動生成ツールの開発環境"
 requires:
-  devbase: ">=2.2.0"
+  devbase: ">=3.0.0"
 priority: 0
