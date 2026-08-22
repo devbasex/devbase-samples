@@ -2,5 +2,5 @@ name: devbase
 version: "1.0.0"
 description: "devbase本体の開発環境（generalコンテナ）"
 requires:
-  devbase: ">=2.2.0"
+  devbase: ">=3.0.0"
 priority: 0

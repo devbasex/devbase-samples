@@ -1,0 +1,8 @@
+# devbase プロジェクト設定 (PLAN32)
+# リポジトリを増やすときは repos に要素を足す。
+version: 1
+scale: 2
+open_editor: true
+repos:
+  - owner: takemi-ohama
+    repo: tmllib

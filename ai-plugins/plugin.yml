@@ -2,5 +2,5 @@ name: ai-plugins
 version: "1.0.0"
 description: "devbasex/ai-plugins - Claude Codeプラグインマーケットプレイスの開発環境"
 requires:
-  devbase: ">=2.2.0"
+  devbase: ">=3.0.0"
 priority: 0
