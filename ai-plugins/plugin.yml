@@ -1,6 +1,6 @@
 name: ai-plugins
 version: "1.0.0"
-description: "devbasex/ai-plugins - Claude Codeプラグインマーケットプレイスの開発環境"
+description: "devbasex/ai-plugins - Claude Code プラグインマーケットプレイスと devbase 本体の開発環境（複数リポジトリ構成の例）"
 requires:
   devbase: ">=3.0.0"
 priority: 0

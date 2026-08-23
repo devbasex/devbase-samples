@@ -10,7 +10,7 @@ plugins:
 
   - name: ai-plugins
     path: ai-plugins/
-    description: "devbasex/ai-plugins - Claude Codeプラグインマーケットプレイスの開発環境"
+    description: "devbasex/ai-plugins - Claude Code プラグインマーケットプレイスと devbase 本体の開発環境（複数リポジトリ構成の例）"
 
   - name: devbase
     path: devbase/
