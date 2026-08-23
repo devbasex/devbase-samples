@@ -1,8 +1,15 @@
 # devbase プロジェクト設定 (PLAN32)
 # リポジトリを増やすときは repos に要素を足す。
+#
+# devbase 本体とプラグインマーケットプレイスを 1 コンテナで扱う。
 version: 1
 scale: 1
 open_editor: true
+
+defaults:
+  owner: devbasex
+
 repos:
-  - owner: devbasex
-    repo: ai-plugins
+  # 先頭が primary (ログイン直後の作業ディレクトリ)
+  - repo: ai-plugins
+  - repo: devbase
