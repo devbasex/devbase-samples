@@ -8,7 +8,7 @@
 
 | プラグイン | 説明 | コンテナ | リポジトリ (`repos[].owner/repo`) |
 |-----------|------|---------|-----------------------------------|
-| `adminer` | 軽量DB管理ツール | `php` | `vrana/adminer` |
+| `adminer` | 軽量DB管理ツール | `php` | `takemi-ohama/adminer` |
 | `ai-plugins` | Claude Code プラグインマーケットプレイス + devbase 本体（複数リポジトリ構成の例） | `general` | `devbasex/ai-plugins`, `devbasex/devbase` |
 | `devbase` | devbase本体の開発環境 | `general` | `devbasex/devbase` |
 | `github_work_time` | GitHubアクティビティから稼働時間を集計するツール | `general` | `takemi-ohama/github_work_time` |
@@ -63,7 +63,7 @@ version: 1
 scale: 1
 open_editor: true
 repos:
-  - owner: vrana
+  - owner: takemi-ohama
     repo: adminer
 ```
 
