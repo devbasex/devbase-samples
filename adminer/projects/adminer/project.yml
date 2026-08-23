@@ -4,5 +4,5 @@ version: 1
 scale: 1
 open_editor: true
 repos:
-  - owner: vrana
+  - owner: takemi-ohama
     repo: adminer
