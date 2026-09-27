@@ -1,2 +1,5 @@
 # コンテナへ渡す環境変数を書く。
 # devbase 自身の設定 (リポジトリ・scale・エディタ) は project.yml にある。
+
+# --- アカウントグループ (devbase#315。宣言は必須) ---
+DEVBASE_ACCOUNT_GROUP=personal
