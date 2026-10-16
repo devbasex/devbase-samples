@@ -1,0 +1,71 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devbasex/ai-plugins/main/plugins/ndf/skills/development-workflow/schemas/project.schema.json",
+  "version": 1,
+  "languages": [],
+  "test": {
+    "suites": []
+  },
+  "test_duration": {
+    "unknown": "CI に JUnit もテストの step も無く、NDF の実行の記録も無い"
+  },
+  "ci": {
+    "provider": "none",
+    "workflows": [],
+    "required_checks": []
+  },
+  "services": {
+    "container": false,
+    "compose_files": [],
+    "databases": []
+  },
+  "delivery": [
+    {
+      "target": "main ブランチ（利用者の `devbase plugin update` が git pull で取得）",
+      "kind": "auto",
+      "trigger": "main へのマージ",
+      "branch": "main",
+      "versioned": false
+    }
+  ],
+  "issues": {
+    "primary": "github",
+    "others": []
+  },
+  "checks": {
+    "tools": []
+  },
+  "ndf_policies": {
+    "doc_lint": false,
+    "reject_md_wording_tests": false
+  },
+  "instructions": {
+    "files": [],
+    "imports": [],
+    "notes": [
+      "指示書（AGENTS.md・CLAUDE.md など）が無い。NDF と各ランタイムが読む指示書を置くとよい"
+    ]
+  },
+  "analysis": {
+    "analyzer": 2,
+    "at": "2026-10-16T00:36:44+00:00",
+    "inputs": {},
+    "branches": {
+      "head": "main",
+      "present": [
+        "main"
+      ]
+    },
+    "written": {
+      "languages": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "test": "8c2202bb102cb24cb6b1ff9ed75160ea54c2fc7a7d44145b92920a16069b9786",
+      "test_duration": "e2eba697a0673ad54c2257dd9f16cc59b075e64aca974937b97b1637abf2ae4e",
+      "ci": "ca9011c93da86096542a9c56d2cc90cdfcde3ea12a80e7605878e06ded278aa8",
+      "services": "53f4e4c15a04bde773f9d0d89be06cd65f1a9248c0603b06b78bfa8a5f8a0771",
+      "delivery": "b8c3517f3dd6c8c365f4fd6645fd583e303010f8c54ffdb27a0224de89d2e4f4",
+      "issues": "770eb2c07170f7f7045b8622672b738f90843daad5d23c26178e25195a3fd60e",
+      "checks": "fe2f3b4ef49492d81cb350fb689bf9f9dff6cfd1817d72d6ff9fe3350e3d5e6a",
+      "ndf_policies": "81c1c2e31df60254dfd66878f3c3b3190c87a2a0b78a2275e13cde3a199e9fa1",
+      "instructions": "d67dfdc765964077eebae7c9f86172e5dd32b67c641d837fcd513f38f733d649"
+    }
+  }
+}

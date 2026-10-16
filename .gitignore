@@ -2,3 +2,6 @@
 *.swp
 .env
 .docker-compose.scale.yml*
+
+# 開発用の作業ツリー
+.worktrees/
